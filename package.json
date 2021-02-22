@@ -1,0 +1,17 @@
+{
+  "name": "@xablau/root",
+  "version": "0.1.0",
+  "description": "Everything",
+  "main": "index.js",
+  "author": "Iago Belo",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
